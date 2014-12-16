@@ -1,4 +1,4 @@
-Final_Assignment - Designscape
+Final Assignment - Designscape
 ================
 
 This reference also serves as the exercise files for my course, so you can download the exercise files from this repo as well.
