@@ -13,7 +13,7 @@
 	
 	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
-	<link rel="stylesheet" type="text/css" href="css/kickstart-slideshow.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css" media="all"/>
 	
 	<!-- fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -28,8 +28,9 @@
 <nav class="navbar">
 <a class="hide-phone" id="logo" href="../1_home/index.html">
 
+<a class="hide-phone" id="logo" href="index.html"><i class="icon-angle-right"></i>Designscape</a><!-- in the framework it doesn't have an element wrap around the text, why? Shouldn't "Designscape" be wrapped with a style like <p-> -->
+
 	<ul>
-	<li>Designscape</li>
 	<li><a href="2_examples/index.html">Examples</a></li>
 	<li><a href="3_list/index.html">List</a></li>
 	<li><a href="4_blog/index.html">Blog</a></li>
@@ -51,7 +52,7 @@
 	
 	<p>Whether it's a smartphone's U/I, website, a vacuum cleaner or the detail of a headlight; the very best examples of design seamlessly blend <b>functionality</b> and <b>design application</b> to make our world a better place. Designscape is an ongoing forum, repository and galley of creative solutions, from which you can glean ideas and apply to your own creative challenges. Of course, great design is subjective and that's why we have a page dedicated for blogging to voice your opinion and share your viewpoint. In the future I plan to transform this site into more of an experience to bring you into a world surrounded by great design and an escape from the overlooked opportunities and mediocrity we encounter everywhere at every turn in our travels.</p>
 	
-	<hp><q>Only those who dare, truly live</q> <sub>— Enzo Ferrari</sub></p>
+	<hp><sub><q><i>Only those who dare, truly live</i></q>— Enzo Ferrari</sub></p>
 	
 </header>
 
@@ -63,41 +64,46 @@
 	<!-- Slideshow -->
 	<div id="slideshow-example" class="tab-content">
 	<h6>See what I mean...</h6>	
-	<div class="col_8">
 	<ul class="slideshow">
-	<li><img src="img/example_clone_trooper.jpg" alt="Trooper" width="700" height="400"/></li>
-	<li><img src="img/example_letters_site.jpg" alt="LETTERS" width="700" height="400"/></li>
-	<li><img src="img/example_lotus.jpg" alt="Lotus" width="700" height="400"/></li>
-	<li><img src="img/example_dazzle.jpg" alt="Dazzle Design" width="700" height="400"/></li>
-	<li><img src="img/example_juicer.jpg" alt="Juicer" width="700" height="400"/></li>
+	<li><a href="2_examples/index.html#trooper"><img src="img/example_clone_trooper.jpg" alt="Trooper" width="700" height="400"/></a></li>
+	<li><a href="2_examples/index.html#letters"><img src="img/example_letters_site.jpg" alt="LETTERS" width="700" height="400"/></a></li>
+	<li><a href="2_examples/index.html#lotus"><img src="img/example_lotus.jpg" alt="Lotus" width="700" height="400"/></a></li>
+	<li><a href="2_examples/index.html#dazzle"><img src="img/example_dazzle.jpg" alt="Dazzle Design" width="700" height="400"/></a></li>
+	<li><a href="2_examples/index.html#juicer"><img src="img/example_juicer.jpg" alt="Juicer" width="700" height="400"/></a></li>
 	</ul>
 	</div>
-	</div>
-	<div id="slideshow-html" class="tab-content">
+	<div id="slideshow-html">
 	</div>
 	
 </section>
 
 <aside> 
 
+	<div class="grid">
+
 	<h4>Gain ideas from these, too:</h4>
 	
-	<div class="grid">
-	
-	<div class="col_6"><img src="img/example_dyson_fan.jpg" alt="Dyson"/><p>The Dyson fan is an elegant solution on multiple levels. It's simple, doesn't have any unnecessary parts, doesn't need to look like any traditional fan and blends into any interior environment. <a href="../2_examples/index.html">See more...</a></p></div>
-	<div class="col_6"><img src="img/example_minecraft.jpg" alt="MINECRAFT"/><p>Now I've never played MINECRAFT, but as a non-user I got immediately and can see how a great idea for something else turned into a massive phenomenon. <a href="../2_examples/index.html">See more...</a></p></div>
+	<a href="2_examples/index.html#dyson"><div class="col_6"><img src="img/example_dyson_fan.jpg" alt="Dyson"/></a><p>The Dyson fan is an elegant solution on multiple levels. It's simple, doesn't have any unnecessary parts, doesn't need to look like any traditional fan and blends into any interior environment. <a href="2_examples/index.html#dyson">See more...</a></p></div>
+	<a href="2_examples/index.html#minecraft"><div class="col_6"><img src="img/example_minecraft.jpg" alt="MINECRAFT"/></a><p>Now I've never played MINECRAFT, but as a non-user I got it immediately and can see how a great idea for something else turned into a massive phenomenon. <a href="2_examples/index.html#minecraft">See more...</a></p></div>
 	
 	</div>
-
+	
 </aside>
 
 <footer>
+
+	<div class="clear"></div>
+	<div id="footer">
 			
 	<a href="https://twitter.com"><img src="img/icon_twitter.png" alt="Twitter"></a>
 	<a href="https://www.pinterest.com"><img src="img/icon_pin.png" alt="Pinterest"></a>
 	<a href="https://www.youtube.com"><img src="img/icon_youtube.png" alt="YouTube"></a>
 			
 	<p><sub>© 2014 Designscape. All Rights Reserved.</sub></p>
+	
+	</div>
+	
+	</div>
 
 </footer>
 
