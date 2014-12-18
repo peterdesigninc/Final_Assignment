@@ -756,15 +756,6 @@ vertical-align: bottom;
 		padding:0;
 		}
 		
-.form	{
-		margin: 40px 0px 20px 0px;
-		}		
-
-
-.horizontalrule	{
-		border-bottom: 1px solid #d4d4d4;
-		margin: 50px 0px 0px 0px;
-		}
 		
 		/*---------------------------------
 	FORMS
@@ -1062,3 +1053,23 @@ clear:both;
 	.notice a[class^='icon-remove'],
 	.notice a[class^='icon-remove']:active,
 	.notice a[class^='icon-remove']:visited{font-size:12px;position:absolute;top:5px;right:5px;left:auto;color:inherit;margin-top:0;left:auto;}
+	
+	/*---------------------------------
+	MISC DETAIL STYLING
+-----------------------------------*/
+	
+.form	{
+		margin: 40px 0px 20px 0px;
+		}		
+
+
+.horizontalrule	{
+		border-bottom: 1px solid #d4d4d4;
+		margin: 50px 0px 0px 0px;
+		}
+
+.imgshadow	{
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px#888;
+		box-shadow: 0 0 5px #888;
+		}
