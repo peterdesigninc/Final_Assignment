@@ -21,23 +21,31 @@
 	
 	<!-- js -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/kickstart.js"></script>
+	<script type="text/javascript" src="../js/kickstart.js"></script>
 	
 </head>
 
-<body>
+<body class="list_page">
 
 <nav class="navbar">
 
-<a class="hide-phone" id="logo" href="../index.html"><i class="icon-angle-right"></i>Designscape</a><!-- in the framework it doesn't have an element wrap around the text, why? Shouldn't "Designscape" be wrapped with a style like <p-> -->
+<a class="hide-phone" id="logo" href="../index.html"><i class="icon-angle-right"></i>Designscape</a>
 
+	<ul class="menu">
+	<li><a href="index.html">Examples</a></li>
+		
+	<li><a href=""><i class="icon-inbox"></i> List</a>
 	<ul>
-	<li><a href="../2_examples/index.html">Examples</a></li>
-	<li><a href="index.html">List</a></li>
+	<li class="divider"><a href="../3_list/index.html#architecture"><i class="icon-cog"></i> Architecture</a></li>
+	<li class="divider"><a href="../3_list/index.html#automotive"><i class="icon-envelope-alt"></i> Automotive</a></li>
+	<li class="divider"><a href="../3_list/index.html#products"><i class="icon-trash"></i> Products</a></li>
+	<li class="divider"><a href="../3_list/index.html#cool"><i class="icon-trash"></i> Just plain cool</a></li>
+	</ul>
+	</li>
 	<li><a href="../4_blog/index.html">Blog</a></li>
 	<li><a href="../5_info/index.html">Info</a></li>
 	</ul>
-
+	
 </nav>
 	
 <header>
@@ -54,15 +62,17 @@
 
 <section>
 
+	<div class="horizontalrule">
+
 	<div class="grid">
 	
 	<div class="form">
 	
-	<input id="text2" type="text" placeholder="Search Designscape" />
+	<input id="text2" type="text" placeholder="Search" />
 	
 	</div>
 
-	<h3>Architecture</h3>
+	<h3 id="architecture">Architecture</h3>
 	
 	<h6><i>Designed from inside out</i></h6>
 	
@@ -82,7 +92,15 @@
 	<li><a href="http://structurae.net/structures/erasmus-bridge">Erasmusbrug Bridge</a></li>
 	</ol>
 	
-	<h3>Automotive</h3>
+	</div>
+	
+	</div>
+	
+	<div class="horizontalrule">
+
+	<div class="grid">
+		
+	<h3 id="automotive">Automotive</h3>
 	
 	<h6><i>Designing for the driver, passenger and environment</i></h6>
 	
@@ -102,7 +120,15 @@
 	<li><a href="http://uncrate.com/stuff/1925-bugatti-type-35b-grand-prix-two-seater/">Bugatti Type 35B</a></li>
 	</ol>
 	
-	<h3>Products</h3>
+	</div>
+	
+	</div>
+	
+	<div class="horizontalrule">
+
+	<div class="grid">
+	
+	<h3 id="products">Products</h3>
 	
 	<h6><i>Where design goes hand in hand</i></h6>
 	
@@ -120,9 +146,17 @@
 	<li><a href="http://www.dwr.com/product/eames-lounge-ottoman-vicenza.do">Eames Lounge Chair</a></li>
 	<li><a href="http://www.creativebloq.com/product-design/examples-industrial-design-12121488">iMac</a></li>
 	<li><a href="http://www.prnewswire.com/news-releases/kitchenaid-unveils-new-colors-at-housewares-show-250456221.html">KitchenAid stand mixer</a></li>
-	</ol>	
+	</ol>
 	
-	<h3>Just plain cool</h3>
+	</div>
+	
+	</div>
+	
+	<div class="horizontalrule">
+
+	<div class="grid">	
+	
+	<h3 id="cool">Just plain cool</h3>
 	
 	<h6><i>But not just designed for design-sake</i></h6>
 	
@@ -141,6 +175,8 @@
 	<li><a href="http://letters-inc.jp">LETTERS, Inc. website</a></li>
 	<li><a href="http://www.wired.com/2013/11/minecraft-book/all/">MINECRAFT</a></li>
 	</ol>	
+	
+	</div>
 	
 	</div>
 	
